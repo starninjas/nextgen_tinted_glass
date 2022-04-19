@@ -1,3 +1,7 @@
+--License:
+--Textures: CC0 by StarNinjas
+--Code: CC0 by StarNinjas
+
 minetest.register_node("nextgen_tinted_glass:tinted_glass", {
 	description = ("Tinted Glass"),
 	drawtype = "glasslike",
@@ -17,3 +21,7 @@ minetest.register_craft({
 		{"", "default:obsidian_glass", ""},
 	}
 })
+
+--To do:
+--Add panes
+--Add MCL2 support
